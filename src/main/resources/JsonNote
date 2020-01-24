@@ -1,0 +1,95 @@
+{"coord": { "lon": 139,"lat": 35},
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 281.52,
+    "feels_like": 278.99,
+    "temp_min": 280.15,
+    "temp_max": 283.71,
+    "pressure": 1016,
+    "humidity": 93
+  },
+  "wind": {
+    "speed": 0.47,
+    "deg": 107.538
+  },
+  "clouds": {
+    "all": 2
+  },
+  "dt": 1560350192,
+  "sys": {
+    "type": 3,
+    "id": 2019346,
+    "message": 0.0065,
+    "country": "JP",
+    "sunrise": 1560281377,
+    "sunset": 1560333478
+  },
+  "timezone": 32400,
+  "id": 1851632,
+  "name": "Shuzenji",
+  "cod": 200
+}
+
+By ZIP code
+Description:
+
+Please note if country is not specified then the search works for USA as a default.
+API call:
+api.openweathermap.org/data/2.5/weather?zip={zip code},{country code}
+Examples of API calls:
+
+api.openweathermap.org/data/2.5/weather?zip=94040,us
+Parameters:
+
+zip zip code
+API response:
+
+{
+  "coord": {"lon": -122.08,"lat": 37.39},
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 282.55,
+    "feels_like": 281.86,
+    "temp_min": 280.37,
+    "temp_max": 284.26,
+    "pressure": 1023,
+    "humidity": 100
+  },
+  "visibility": 16093,
+  "wind": {
+    "speed": 1.5,
+    "deg": 350
+  },
+  "clouds": {
+    "all": 1
+  },
+  "dt": 1560350645,
+  "sys": {
+    "type": 1,
+    "id": 5122,
+    "message": 0.0139,
+    "country": "US",
+    "sunrise": 1560343627,
+    "sunset": 1560396563
+  },
+  "timezone": -25200,
+  "id": 420006353,
+  "name": "Mountain View",
+  "cod": 200
+}
