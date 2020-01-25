@@ -45,7 +45,7 @@ public class Bot extends TelegramLongPollingBot {
                     try {
                         sendMsg(message, Weather.getWeather(message.getText(), model));
                     } catch (IOException e) {
-                        sendMsg(message, "шо ты тут выдумываешь,такого города нет!");
+                        sendMsg(message, "шо ты тут выдумываешь,такого города нет!!!");
                     }
             }
         }
